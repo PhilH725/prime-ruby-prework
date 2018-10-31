@@ -4,5 +4,5 @@ def prime?(num)
   for i in (1..num)
     divisors.push if num % 1 == 0
   end
-  divisors.length > 1 
+  divisors.length > 1 ? true : false
 end
