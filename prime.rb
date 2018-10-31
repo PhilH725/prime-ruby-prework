@@ -7,4 +7,4 @@ def prime?(num)
   divisors.size == 2 ? true : false
 end
 
-puts prime?(16)
+puts prime?(5)
