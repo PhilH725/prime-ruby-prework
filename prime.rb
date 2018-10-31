@@ -8,4 +8,4 @@ def prime?(num)
   divisors.length < 3 ? true : false
 end
 
-prime?(16)
+puts prime?(16)
