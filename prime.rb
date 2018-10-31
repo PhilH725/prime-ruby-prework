@@ -2,9 +2,8 @@
 def prime?(num)
   divisors = []
   for i in (1..num)
-    divisors.push if num % 1 == 0
+    divisors.push if num % i == 0
   end
-  puts divisors
   divisors.size == 2 ? true : false
 end
 
