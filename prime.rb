@@ -5,7 +5,7 @@ def prime?(num)
     divisors.push if num % 1 == 0
   end
   puts divisors
-  divisors.length < 3 ? true : false
+  divisors.size < 3 ? true : false
 end
 
 puts prime?(16)
