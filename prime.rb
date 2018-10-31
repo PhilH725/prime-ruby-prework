@@ -7,3 +7,5 @@ def prime?(num)
   puts divisors
   divisors.length < 3 ? true : false
 end
+
+prime(16)
